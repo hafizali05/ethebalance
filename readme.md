@@ -7,3 +7,5 @@ promise-enabled library and async/await.
 Live version available on heroku:
 
 https://guarded-beyond-91831.herokuapp.com/
+
+P.S REQUIRES NODE 7.x.x
