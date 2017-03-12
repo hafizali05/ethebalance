@@ -2,8 +2,9 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const axios = require('axios');
-var async = require('asyncawait/async');
-var await = require('asyncawait/await');
+const async = require('asyncawait/async');
+const await = require('asyncawait/await');
+const port  = process.env.PORT || 3000;
 
 // app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'pug');
@@ -41,6 +42,6 @@ app.post('/', async (req, res)=> {
 // }))
 
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log('Server is up on port 3000');
 });
