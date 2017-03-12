@@ -1,0 +1,11 @@
+html
+  head
+    title= title
+  body
+    h1 Address
+    h1= message
+    form#address(method='post', action='/')
+      div
+        input(type='text', name='address', placeholder='address')
+      div
+        input(type='submit')
